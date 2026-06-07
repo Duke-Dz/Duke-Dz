@@ -1,51 +1,43 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:14b8a6&height=190&section=header&text=Duke%20Asiago&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Software%20Developer%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=16)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:14b8a6&height=115&section=header&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+practical+projects+one+step+at+a+time;Learning%2C+improving%2C+and+staying+curious;Turning+ideas+into+working+software)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Duke+Asiago;Aspiring+Software+Developer;Learning+by+building+real+projects;One+commit+at+a+time)](https://git.io/typing-svg)
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Duke-Dz&color=0e75b6&style=flat-square)](https://github.com/Duke-Dz)
+[![Repositories](https://img.shields.io/badge/Explore-my_repositories-14b8a6?style=flat-square&logo=github&logoColor=white)](https://github.com/Duke-Dz?tab=repositories)
+[![Email](https://img.shields.io/badge/Email-dukenyamwaro1%40gmail.com-2563eb?style=flat-square&logo=gmail&logoColor=white)](mailto:dukenyamwaro1@gmail.com)
 
 </div>
 
-# Hi, I'm Duke Asiago
+## About
 
-I'm an aspiring software developer, currently building practical projects while improving a little every day. I enjoy learning how to create useful applications, write cleaner code, and understand how different parts of software work together.
+I am working toward becoming a software developer by building practical projects, learning from each step, and improving my craft consistently. I enjoy turning ideas into useful applications, understanding how systems work, and writing code that becomes clearer over time.
 
-I use GitHub to document my progress, share what I am building, and keep growing through consistent practice.
+> I am not where I want to be yet, but I am building toward it every day.
 
-> Progress does not have to be loud. Showing up, learning honestly, and building consistently is how I move forward.
+## Current Focus
 
-## What I'm Focused On
+- Building full-stack projects with frontend, backend, and database logic
+- Improving my understanding of APIs, authentication, deployment, and clean project structure
+- Practicing through real projects instead of only theory
+- Keeping my work visible so progress can speak for itself
 
-- Building full-stack applications with JavaScript, React, Node.js, and Spring Boot
-- Learning more about APIs, databases, authentication, and deployment
-- Practicing clean code, clear documentation, and reliable project structure
-- Staying curious, improving steadily, and learning from every project
+## Repository Snapshot
 
-## Projects
+| Project | What it shows |
+| --- | --- |
+| **PhishGuard** | Suspicious-link detection, phishing awareness, backend checks, and authentication-focused logic. |
+| **CampusFix** | Issue reporting, request tracking, role-based workflows, and dashboard-style application structure. |
+| **Profile README** | A growing profile space where I present my work clearly and keep improving how I communicate. |
 
-Here are a few projects I have been working on. You can visit my repositories to see the code, progress, and implementation details.
+> For the full code, progress, and implementation details, visit my repositories.
 
-### PhishGuard
+## Tech I Am Practicing
 
-A web-based project focused on detecting suspicious links and helping users become more aware of phishing attempts.
+`JavaScript` `React` `Next.js` `Node.js` `Express` `Java` `Spring Boot` `PostgreSQL` `MySQL` `Tailwind CSS` `Docker` `Git`
 
-Tech: `Node.js` `Express` `PostgreSQL` `Sequelize` `JWT` `Docker`
-
-### CampusFix
-
-A maintenance request system that allows users to report issues, track requests, and manage different user roles.
-
-Tech: `Spring Boot` `React` `MySQL` `Tailwind CSS` `Docker`
-
-## Tech I Work With
-
-**Languages:** JavaScript, Java, HTML, CSS  
-**Frontend:** React, Next.js, Tailwind CSS  
-**Backend:** Node.js, Express, Spring Boot  
-**Databases:** PostgreSQL, MySQL  
-**Tools:** Git, Docker, Postman, VS Code, Figma
-
-## GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
@@ -56,17 +48,8 @@ Tech: `Spring Boot` `React` `MySQL` `Tailwind CSS` `Docker`
 
 </div>
 
-## Let's Connect
-
-[GitHub](https://github.com/Duke-Dz)  
-[Email](mailto:dukenyamwaro1@gmail.com)
-
----
-
-I am still learning, still building, and still getting better. Every project is a chance to understand the craft more deeply and move one step forward.
-
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:2563eb,100:0f172a&height=110&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:2563eb,100:0f172a&height=95&section=footer)
 
 </div>
