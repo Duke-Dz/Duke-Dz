@@ -48,10 +48,14 @@
 
 <div align="center">
 
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Duke-Dz&theme=tokyo-night&hide_border=true&area=true)
+
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Duke-Dz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Duke-Dz&theme=tokyonight&hide_border=true" />
 
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Duke-Dz&layout=compact&theme=tokyonight&hide_border=true" />
+
+<sub>Activity cards update automatically from GitHub data. Some widgets may cache results briefly before showing the latest changes.</sub>
 
 </div>
 
