@@ -12,11 +12,11 @@
 
 ## Repository Snapshot
 
-| Project | What it shows |
-| --- | --- |
-| **PhishGuard** | Suspicious-link detection, phishing awareness, backend checks, and authentication-focused logic. |
-| **CampusFix** | Issue reporting, request tracking, role-based workflows, and dashboard-style application structure. |
-| **Profile README** | Clear technical presentation, GitHub profile setup, and continuous improvement. |
+**PhishGuard** is a phishing detection and awareness project focused on identifying suspicious links and helping users understand possible online threats.  
+Tech: `Node.js` `Express` `PostgreSQL` `Sequelize` `JWT` `Docker`
+
+**CampusFix** is a maintenance request system for reporting issues, tracking requests, and managing role-based workflows.  
+Tech: `Spring Boot` `React` `MySQL` `Tailwind CSS` `Docker`
 
 > For the full code, progress, and implementation details, visit my repositories.
 
