@@ -1,8 +1,18 @@
+<div align="center">
+
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:14b8a6&height=190&section=header&text=Duke%20Asiago&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Software%20Developer%20%7C%20Learning%20by%20Building&descAlignY=58&descSize=16)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+practical+projects+one+step+at+a+time;Learning%2C+improving%2C+and+staying+curious;Turning+ideas+into+working+software)](https://git.io/typing-svg)
+
+</div>
+
 # Hi, I'm Duke Asiago
 
 I'm an aspiring software developer, currently building practical projects while improving a little every day. I enjoy learning how to create useful applications, write cleaner code, and understand how different parts of software work together.
 
 I use GitHub to document my progress, share what I am building, and keep growing through consistent practice.
+
+> Progress does not have to be loud. Showing up, learning honestly, and building consistently is how I move forward.
 
 ## What I'm Focused On
 
@@ -54,3 +64,9 @@ Tech: `Spring Boot` `React` `MySQL` `Tailwind CSS` `Docker`
 ---
 
 I am still learning, still building, and still getting better. Every project is a chance to understand the craft more deeply and move one step forward.
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:2563eb,100:0f172a&height=110&section=footer)
+
+</div>
