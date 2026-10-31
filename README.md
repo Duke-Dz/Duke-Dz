@@ -1,6 +1,8 @@
-# Hi, I'm Duke Asiago.
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=32&amp;duration=3200&amp;pause=2400&amp;color=3B82F6&amp;vCenter=true&amp;width=500&amp;height=56&amp;lines=Hi%2C+I%27m+Duke+Asiago.&amp;repeat=true" alt="Hi, I'm Duke Asiago." width="500" />
+</h1>
 
-I'm an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
+I'm **Duke Asiago**, an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
 
 My projects explore **full-stack web development**, **security awareness**, and **practical tools for campus life**.
 
@@ -30,14 +32,35 @@ A campus maintenance platform for students, maintenance staff, and administrator
 
 [Explore the code →](https://github.com/Duke-Dz/Campus-Maintenance-System#readme)
 
-## Tools I work with
+## Tech stack
 
-| Area | Technologies |
-| :--- | :--- |
-| Languages | JavaScript · Java · HTML · CSS |
-| Frontend | React · Vite · Tailwind CSS |
-| Backend | Node.js · Express · Spring Boot |
-| Data & workflow | PostgreSQL · MySQL · Sequelize · Docker · Git |
+**Languages**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=FFFFFF)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=FFFFFF)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=FFFFFF)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFFFFF)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=FFFFFF)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=FFFFFF)
+
+**Data & tools**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=FFFFFF)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=FFFFFF)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=FFFFFF)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=FFFFFF)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=FFFFFF)
 
 ## How I keep learning
 
