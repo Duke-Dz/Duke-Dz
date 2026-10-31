@@ -70,12 +70,12 @@ A campus maintenance platform connecting students, maintenance staff, and admini
 
 <a href="https://github.com/Duke-Dz?tab=overview">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
-    <img src="./assets/activity-light.svg" alt="My GitHub contribution calendar, with its reporting period and last refresh time." width="900" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?view=line" />
+    <img src="./assets/activity-light.svg?view=line" alt="Line graph of my weekly GitHub contributions, with its reporting period and last refresh time." width="900" />
   </picture>
 </a>
 
-Updated daily from my public GitHub contribution calendar.
+Weekly contribution totals, updated daily from my public GitHub activity.
 
 [View my latest contributions on GitHub →](https://github.com/Duke-Dz?tab=overview)
 

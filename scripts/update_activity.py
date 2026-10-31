@@ -1,6 +1,7 @@
-"""Render the public GitHub contribution calendar without a third-party stats API."""
+"""Render a weekly line graph from the public GitHub contribution calendar without a third-party stats API."""
 import argparse
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
+import math
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -61,34 +62,59 @@ class CalendarParser(HTMLParser):
         return total, days
 
 
+def weekly_totals(days):
+    weeks = {}
+    for day, _, count in days:
+        start = day - timedelta(days=(day.weekday() + 1) % 7)
+        if start not in weeks:
+            weeks[start] = [day, day, 0]
+        weeks[start][1] = day
+        weeks[start][2] += count
+    return list(weeks.values())
+
+
 def render(total, days, refreshed, dark):
     bg, border, fg, muted = ('#0d1117', '#30363d', '#e6edf3', '#9198a1') if dark else ('#ffffff', '#d1d9e0', '#1f2328', '#59636e')
-    colors = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'] if dark else ['#eff2f5', '#9be9a8', '#40c463', '#30a14e', '#216e39']
-    first = days[0][0]
-    offset = (first.weekday() + 1) % 7
-    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">',
-             f'<title id="title">{total:,} contributions in the last year</title>',
-             f'<desc id="desc">GitHub public profile calendar, {first} through {days[-1][0]}. Refreshed {refreshed}.</desc>',
-             f'<rect x="0.5" y="0.5" width="899" height="219" rx="8" fill="{bg}" stroke="{border}"/>',
+    accent = '#38bdf8' if dark else '#2563eb'
+    weeks = weekly_totals(days)
+    if sum(w[2] for w in weeks) != total:
+        raise ValueError('Weekly totals do not match the source calendar.')
+    peak = max(w[2] for w in weeks)
+    raw_step = max(1, peak / 4)
+    magnitude = 10 ** math.floor(math.log10(raw_step))
+    step = next(n * magnitude for n in (1, 2, 5, 10) if n * magnitude >= raw_step)
+    tick_count = max(1, math.ceil(peak / step))
+    ceiling = step * tick_count
+    left, right, top, bottom = 64, 868, 100, 240
+    points = [(left + i * (right - left) / max(1, len(weeks) - 1),
+               bottom - w[2] / ceiling * (bottom - top)) for i, w in enumerate(weeks)]
+    line = 'M ' + ' L '.join(f'{x:.2f},{y:.2f}' for x, y in points)
+    area = line + f' L {right},{bottom} L {left},{bottom} Z'
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">',
+             '<title id="title">GitHub contribution activity — weekly totals</title>',
+             f'<desc id="desc">Line graph of {total:,} contributions from {days[0][0]} through {days[-1][0]}, grouped by Sunday-to-Saturday week. Boundary weeks may be partial. Refreshed {escape(refreshed)}.</desc>',
+             f'<rect x="0.5" y="0.5" width="899" height="319" rx="8" fill="{bg}" stroke="{border}"/>',
              '<g font-family="Segoe UI,Arial,sans-serif">',
-             f'<text x="24" y="33" font-size="20" font-weight="600" fill="{fg}">{total:,} contributions in the last year</text>',
-             f'<text x="24" y="55" font-size="12" fill="{muted}">{first} to {days[-1][0]}</text>']
-    for day, level, count in days:
-        position = (day - first).days + offset
-        week, row = divmod(position, 7)
-        x, y = 56 + week * 15, 86 + row * 13
-        if day.day == 1:
-            label_x = 56 + ((position + 6) // 7) * 15
-            if label_x < 840:
-                parts.append(f'<text x="{label_x}" y="76" font-size="11" fill="{muted}">{day:%b}</text>')
-        parts.append(f'<rect x="{x}" y="{y}" width="11" height="10" rx="2" fill="{colors[level]}"><title>{day}: {count} contributions</title></rect>')
-    for row, label in [(1, 'Mon'), (3, 'Wed'), (5, 'Fri')]:
-        parts.append(f'<text x="24" y="{94 + row * 13}" font-size="10" fill="{muted}">{label}</text>')
-    parts.append(f'<text x="24" y="202" font-size="11" fill="{muted}">GitHub public profile · Updated {escape(refreshed)}</text>')
-    parts.append(f'<text x="728" y="202" font-size="10" fill="{muted}">Less</text>')
-    for i, color in enumerate(colors):
-        parts.append(f'<rect x="{756 + i * 15}" y="193" width="11" height="10" rx="2" fill="{color}"/>')
-    parts.append(f'<text x="836" y="202" font-size="10" fill="{muted}">More</text></g></svg>')
+             f'<text x="24" y="34" font-size="20" font-weight="600" fill="{fg}">Contribution activity</text>',
+             f'<text x="868" y="34" text-anchor="end" font-size="16" font-weight="600" fill="{accent}">{total:,} contributions</text>',
+             f'<text x="24" y="58" font-size="12" fill="{muted}">Weekly totals · {days[0][0]} to {days[-1][0]}</text>',
+             f'<text x="64" y="84" font-size="11" fill="{muted}">Contributions / week</text>']
+    for tick in range(tick_count + 1):
+        value = tick * step
+        y = bottom - tick * (bottom - top) / tick_count
+        parts.append(f'<path d="M {left},{y} H {right}" stroke="{border}" stroke-width="1"/>')
+        parts.append(f'<text x="50" y="{y + 4}" text-anchor="end" font-size="11" fill="{muted}">{value:g}</text>')
+    parts.append(f'<path d="{area}" fill="{accent}" fill-opacity="0.12"/>')
+    parts.append(f'<path d="{line}" fill="none" stroke="{accent}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>')
+    for (x, y), (start, end, count) in zip(points, weeks):
+        parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.4" fill="{accent}"><title>{start} to {end}: {count} contributions</title></circle>')
+    ticks = sorted({round(i * (len(weeks) - 1) / 6) for i in range(7)})
+    for index in ticks:
+        x = points[index][0]
+        anchor = 'start' if index == 0 else 'end' if index == len(weeks) - 1 else 'middle'
+        parts.append(f'<text x="{x:.2f}" y="263" text-anchor="{anchor}" font-size="11" fill="{muted}">{weeks[index][0]:%d %b %Y}</text>')
+    parts.append(f'<text x="24" y="302" font-size="11" fill="{muted}">Updated {escape(refreshed)}</text>')
+    parts.append(f'<text x="868" y="302" text-anchor="end" font-size="11" fill="{muted}">Weeks: Sun–Sat · Current week may be partial</text></g></svg>')
     return '\n'.join(parts) + '\n'
 
 
@@ -113,7 +139,7 @@ def main():
     output.mkdir(exist_ok=True)
     for dark, theme in [(False, 'light'), (True, 'dark')]:
         (output / f'activity-{theme}.svg').write_text(render(total, days, refreshed, dark), encoding='utf-8')
-    print(f'Generated calendar: {total} contributions, {len(days)} days, through {days[-1][0]}')
+    print(f'Generated activity graph: {total} contributions, {len(days)} days, through {days[-1][0]}')
 
 
 if __name__ == '__main__':
