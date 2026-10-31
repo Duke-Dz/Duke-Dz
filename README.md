@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Duke Asiago — learning by building practical software, one project at a time." width="100%" />
+  <img src="./assets/profile-banner.svg?v=2" alt="Duke Asiago — aspiring software developer." width="100%" />
 </p>
 
 <p align="center">
