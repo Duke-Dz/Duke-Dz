@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Duke Asiago</title>
+  <desc id="description">Learning by building practical software, one project at a time. A navy banner with cyan code brackets and geometric details.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220" />
+      <stop offset="1" stop-color="#101E32" />
+    </linearGradient>
+    <linearGradient id="accent" x1="812" y1="90" x2="1058" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" />
+      <stop offset="1" stop-color="#2DD4BF" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#27405A" stroke-opacity="0.3" />
+    </pattern>
+    <clipPath id="panel"><rect x="1" y="1" width="1198" height="338" rx="20" /></clipPath>
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="340" fill="url(#background)" />
+    <rect x="744" width="456" height="340" fill="url(#grid)" />
+    <path d="M744 0V340" stroke="#243B53" stroke-opacity="0.5" />
+    <circle cx="973" cy="170" r="183" stroke="#1D344C" />
+    <circle cx="973" cy="170" r="137" stroke="#27465F" stroke-dasharray="3 10" />
+    <rect x="861" y="58" width="224" height="224" rx="32" fill="#0D1929" stroke="#31536B" transform="rotate(-8 973 170)" />
+    <rect x="873" y="70" width="200" height="200" rx="26" fill="#102235" stroke="#2C4960" />
+    <path d="M925 140L893 170L925 200M1021 140L1053 170L1021 200M990 127L956 213" stroke="url(#accent)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1110" cy="69" r="6" fill="#67E8F9" />
+    <circle cx="825" cy="269" r="4" fill="#2DD4BF" />
+    <path d="M817 84H829M823 78V90M1123 253H1135M1129 247V259" stroke="#528197" stroke-width="2" stroke-linecap="round" />
+    <path d="M56 54H96" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" />
+    <text x="110" y="60" fill="#67E8F9" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="3">LEARNING BY BUILDING</text>
+    <text x="52" y="157" fill="#F1F5F9" font-family="'Segoe UI',Arial,sans-serif" font-size="80" font-weight="700" letter-spacing="-3">Duke Asiago<tspan fill="#22D3EE">.</tspan></text>
+    <text x="56" y="208" fill="#CBD5E1" font-family="'Segoe UI',Arial,sans-serif" font-size="27">Practical ideas. Working software.</text>
+    <path d="M56 244H680" stroke="#263D53" />
+    <circle cx="62" cy="282" r="5" fill="#2DD4BF" />
+    <text x="80" y="288" fill="#A6BDCF" font-family="Consolas,'Courier New',monospace" font-size="18">one project at a time</text>
+    <text x="1122" y="309" text-anchor="end" fill="#7794AC" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="2">DUKE-DZ / GITHUB</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="20" stroke="#2A4056" />
+</svg>

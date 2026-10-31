@@ -1,66 +1,71 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Duke Asiago — learning by building practical software, one project at a time." width="100%" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Duke+Asiago;Aspiring+Software+Developer;Learning+by+building+real+projects;One+commit+at+a+time)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://github.com/Duke-Dz?tab=repositories"><img src="https://img.shields.io/badge/Explore_projects-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore my GitHub repositories" /></a>
+  <a href="mailto:dukenyamwaro1@gmail.com"><img src="https://img.shields.io/badge/Let's_connect-0B1220?style=for-the-badge&amp;logo=gmail&amp;logoColor=67E8F9" alt="Email Duke Asiago" /></a>
+</p>
 
-**Building practical projects, learning every day, and working toward becoming a software developer.**
+## A little about me
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Duke-Dz&color=0e75b6&style=flat-square)](https://github.com/Duke-Dz)
-[![Repositories](https://img.shields.io/badge/Explore-my_repositories-14b8a6?style=flat-square&logo=github&logoColor=white)](https://github.com/Duke-Dz?tab=repositories)
-[![Email](https://img.shields.io/badge/Email-dukenyamwaro1%40gmail.com-2563eb?style=flat-square&logo=gmail&logoColor=white)](mailto:dukenyamwaro1@gmail.com)
+I'm **Duke**, an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
 
-</div>
+My projects explore **full-stack web development**, **security awareness**, and **practical tools for campus life**.
 
-## Repository Snapshot
+## Selected projects
 
-**PhishGuard** is a phishing detection and awareness project focused on identifying suspicious links and helping users understand possible online threats.  
-Tech: `Node.js` `Express` `PostgreSQL` `Sequelize` `JWT` `Docker`
+### 01 · [CyberSense](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system)
 
-**CampusFix** is a maintenance request system for reporting issues, tracking requests, and managing role-based workflows.  
-Tech: `Spring Boot` `React` `MySQL` `Tailwind CSS` `Docker`
+**Helping people recognize phishing threats.**
 
-> For the full code, progress, and implementation details, visit my repositories.
+A phishing detection and awareness platform for checking suspicious URLs, email content, and SMS messages. It brings together scan history, threat reporting, user and admin dashboards, and security awareness content.
 
-## Tech Stack
+`React` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Sequelize`
 
-<div align="center">
+[Explore the code →](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#readme)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=fff)
+---
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=fff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff)
+### 02 · [CampusFix](https://github.com/Duke-Dz/Campus-Maintenance-System)
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
-![Express.js](https://img.shields.io/badge/Express.js-000?style=for-the-badge&logo=express&logoColor=fff)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=fff)
+**From a reported issue to a tracked resolution.**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=fff)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=fff)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff)
+A campus maintenance platform for students, maintenance staff, and administrators. It connects issue reporting, ticket assignment, progress tracking, and role-based dashboards in one application.
 
-</div>
+`Java` `Spring Boot` `React` `Tailwind CSS` `MySQL` `Docker`
 
-## GitHub Activity
+[Explore the code →](https://github.com/Duke-Dz/Campus-Maintenance-System#readme)
 
-<div align="center">
+## Tools I work with
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Duke-Dz&theme=tokyo-night&hide_border=true&area=true)
+| Area | Technologies |
+| :--- | :--- |
+| Languages | JavaScript · Java · HTML · CSS |
+| Frontend | React · Vite · Tailwind CSS |
+| Backend | Node.js · Express · Spring Boot |
+| Data & workflow | PostgreSQL · MySQL · Sequelize · Docker · Git |
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Duke-Dz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Duke-Dz&theme=tokyonight&hide_border=true" />
+## How I keep learning
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Duke-Dz&layout=compact&theme=tokyonight&hide_border=true" />
+- Build features that connect the interface, API, and database.
+- Learn from real workflows: authentication, reporting, and role-based access.
+- Keep improving the structure, usability, and documentation of my projects.
 
-<sub>Activity cards update automatically from GitHub data. Some widgets may cache results briefly before showing the latest changes.</sub>
+<details>
+<summary><strong>A look at my GitHub activity</strong></summary>
 
-</div>
+<br />
 
-<div align="center">
+[![Duke-Dz's GitHub contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Duke-Dz&bg_color=0b1220&color=cbd5e1&line=22d3ee&point=67e8f9&area=true&area_color=164e63&hide_border=true&radius=12)](https://github.com/Duke-Dz?tab=overview)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:2563eb,100:0f172a&height=95&section=footer)
+[View my contributions on GitHub →](https://github.com/Duke-Dz?tab=overview)
 
-</div>
+</details>
+
+---
+
+<p align="center">
+  <strong>Have an idea, a question, or feedback on a project?</strong><br />
+  <a href="mailto:dukenyamwaro1@gmail.com">Let's connect</a> · <a href="https://github.com/Duke-Dz?tab=repositories">See what I'm building</a>
+</p>
