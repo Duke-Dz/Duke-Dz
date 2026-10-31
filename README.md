@@ -2,9 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=32&amp;duration=3200&amp;pause=2400&amp;color=3B82F6&amp;vCenter=true&amp;width=500&amp;height=56&amp;lines=Hi%2C+I%27m+Duke+Asiago.&amp;repeat=true" alt="Hi, I'm Duke Asiago." width="500" />
 </h1>
 
-I'm **Duke Asiago**, an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
-
-My projects explore **full-stack web development**, **security awareness**, and **practical tools for campus life**.
+I'm **Duke**, an aspiring software developer building full-stack applications with **React**, **Node.js**, and **Spring Boot**. My projects focus on security awareness and campus workflows.
 
 [Explore projects](#selected-projects) · [All repositories](https://github.com/Duke-Dz?tab=repositories) · [Email me](mailto:dukenyamwaro1@gmail.com)
 
@@ -12,25 +10,31 @@ My projects explore **full-stack web development**, **security awareness**, and 
 
 ### 01 · [CyberSense](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system)
 
-**Helping people recognize phishing threats.**
+A phishing detection and awareness platform for scanning suspicious URLs, emails, and SMS messages, reviewing scan history, and reporting threats.
 
-A phishing detection and awareness platform for checking suspicious URLs, email content, and SMS messages. It brings together scan history, threat reporting, user and admin dashboards, and security awareness content.
+**My contributions**
+
+- Extended email-detection rules and risk scoring, with regression tests for phishing scenarios.
+- Improved dashboard navigation and dark-mode styling.
 
 `React` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Sequelize`
 
-[Explore the code →](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#readme)
+[Source code](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system) · [Features](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#core-features) · [Run locally](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#getting-started)
 
 ---
 
 ### 02 · [CampusFix](https://github.com/Duke-Dz/Campus-Maintenance-System)
 
-**From a reported issue to a tracked resolution.**
+A campus maintenance platform connecting students, maintenance staff, and administrators through issue reporting, work assignment, and ticket tracking.
 
-A campus maintenance platform for students, maintenance staff, and administrators. It connects issue reporting, ticket assignment, progress tracking, and role-based dashboards in one application.
+**My contributions**
+
+- Improved mobile layouts across authentication and dashboard screens.
+- Added ticket-form validation and before-and-after maintenance photos in the dashboard.
 
 `Java` `Spring Boot` `React` `Tailwind CSS` `MySQL` `Docker`
 
-[Explore the code →](https://github.com/Duke-Dz/Campus-Maintenance-System#readme)
+[Source code](https://github.com/Duke-Dz/Campus-Maintenance-System) · [Features](https://github.com/Duke-Dz/Campus-Maintenance-System#core-features) · [Run locally](https://github.com/Duke-Dz/Campus-Maintenance-System#running-locally)
 
 ## Tech stack
 
@@ -61,12 +65,6 @@ A campus maintenance platform for students, maintenance staff, and administrator
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=FFFFFF)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=FFFFFF)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=FFFFFF)
-
-## How I keep learning
-
-- Build features that connect the interface, API, and database.
-- Learn from real workflows: authentication, reporting, and role-based access.
-- Keep improving the structure, usability, and documentation of my projects.
 
 <details>
 <summary><strong>A look at my GitHub activity</strong></summary>
