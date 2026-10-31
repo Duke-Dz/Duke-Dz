@@ -68,9 +68,16 @@ A campus maintenance platform connecting students, maintenance staff, and admini
 
 ## GitHub activity
 
-[![Duke Asiago's GitHub profile summary and contribution graph for the last year](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Duke-Dz&theme=github_dark)](https://github.com/Duke-Dz?tab=overview)
+<a href="https://github.com/Duke-Dz?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+    <img src="./assets/activity-light.svg" alt="My GitHub contribution calendar, with its reporting period and last refresh time." width="900" />
+  </picture>
+</a>
 
-[View my contributions on GitHub →](https://github.com/Duke-Dz?tab=overview)
+Updated daily from my public GitHub contribution calendar.
+
+[View my latest contributions on GitHub →](https://github.com/Duke-Dz?tab=overview)
 
 ---
 
