@@ -1,17 +1,10 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg?v=2" alt="Duke Asiago — aspiring software developer." width="100%" />
-</p>
+# Hi, I'm Duke Asiago.
 
-<p align="center">
-  <a href="https://github.com/Duke-Dz?tab=repositories"><img src="https://img.shields.io/badge/Explore_projects-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore my GitHub repositories" /></a>
-  <a href="mailto:dukenyamwaro1@gmail.com"><img src="https://img.shields.io/badge/Let's_connect-0B1220?style=for-the-badge&amp;logo=gmail&amp;logoColor=67E8F9" alt="Email Duke Asiago" /></a>
-</p>
-
-## A little about me
-
-I'm **Duke**, an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
+I'm an aspiring software developer learning by building useful applications. I enjoy connecting clear interfaces with the APIs and databases behind them, and turning everyday problems into projects I can learn from.
 
 My projects explore **full-stack web development**, **security awareness**, and **practical tools for campus life**.
+
+[Explore projects](#selected-projects) · [All repositories](https://github.com/Duke-Dz?tab=repositories) · [Email me](mailto:dukenyamwaro1@gmail.com)
 
 ## Selected projects
 
