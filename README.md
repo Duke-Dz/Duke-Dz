@@ -17,9 +17,9 @@ A phishing detection and awareness platform for scanning suspicious URLs, emails
 - Extended email-detection rules and risk scoring, with regression tests for phishing scenarios.
 - Improved dashboard navigation and dark-mode styling.
 
-`React` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Sequelize`
+**Built with:** `React` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Sequelize`
 
-[Source code](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system) · [Features](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#core-features) · [Run locally](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#getting-started)
+[**💻 Source code**](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system) · [**✨ Features**](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#core-features) · [**⚙️ Setup guide**](https://github.com/Duke-Dz/Phishing-detection-and-awareness-system#getting-started)
 
 ---
 
@@ -32,9 +32,9 @@ A campus maintenance platform connecting students, maintenance staff, and admini
 - Improved mobile layouts across authentication and dashboard screens.
 - Added ticket-form validation and before-and-after maintenance photos in the dashboard.
 
-`Java` `Spring Boot` `React` `Tailwind CSS` `MySQL` `Docker`
+**Built with:** `Java` `Spring Boot` `React` `Tailwind CSS` `MySQL` `Docker`
 
-[Source code](https://github.com/Duke-Dz/Campus-Maintenance-System) · [Features](https://github.com/Duke-Dz/Campus-Maintenance-System#core-features) · [Run locally](https://github.com/Duke-Dz/Campus-Maintenance-System#running-locally)
+[**💻 Source code**](https://github.com/Duke-Dz/Campus-Maintenance-System) · [**✨ Features**](https://github.com/Duke-Dz/Campus-Maintenance-System#core-features) · [**⚙️ Setup guide**](https://github.com/Duke-Dz/Campus-Maintenance-System#running-locally)
 
 ## Tech stack
 
