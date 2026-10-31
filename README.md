@@ -66,16 +66,11 @@ A campus maintenance platform connecting students, maintenance staff, and admini
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=FFFFFF)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=FFFFFF)
 
-<details>
-<summary><strong>A look at my GitHub activity</strong></summary>
+## GitHub activity
 
-<br />
-
-[![Duke-Dz's GitHub contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Duke-Dz&bg_color=0b1220&color=cbd5e1&line=22d3ee&point=67e8f9&area=true&area_color=164e63&hide_border=true&radius=12)](https://github.com/Duke-Dz?tab=overview)
+[![Duke Asiago's GitHub profile summary and contribution graph for the last year](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Duke-Dz&theme=github_dark)](https://github.com/Duke-Dz?tab=overview)
 
 [View my contributions on GitHub →](https://github.com/Duke-Dz?tab=overview)
-
-</details>
 
 ---
 
